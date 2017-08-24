@@ -1,0 +1,16 @@
+{
+    "name": "demo_frontend",
+    "version": "1.0.0",
+    "main": "main.js",
+    "scripts": {
+        "start": "node main.js | ./node_modules/.bin/bunyan",
+        "test": "tap test/*.js"
+    },
+    "dependencies": {
+        "bunyan": "2.0.2",
+        "restify": "5.2.0"
+    },
+    "devDependencies": {
+        "tap": "10.7.2"
+    }
+}
